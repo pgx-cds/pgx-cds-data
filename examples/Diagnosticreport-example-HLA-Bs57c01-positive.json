@@ -1,0 +1,99 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "101",
+  "text": {
+    "status": "generated",
+    "div": "<div></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Observation",
+      "id": "r1",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "50956-2",
+            "display": "HLA-B*57:01 [Presence]"
+          }
+        ],
+        "text": "HLA-B*57:01 allele test"
+      },
+      "subject": {
+        "reference": "Patient/pat2"
+      },
+      "performer": [
+        {
+          "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+          "display": "Acme Laboratory, Inc"
+        }
+      ],
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "10828004",
+            "display": "Positive"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "LA6576-8",
+            "display": "Positive"
+          }
+        ],
+        "text": "Positive for HLA-B*57:01 allele"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://acme.com/lab/reports",
+      "value": "5234342"
+    }
+  ],
+  "status": "final",
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "GE"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "50956-2",
+        "display": "HLA-B*57:01 [Presence]"
+      }
+    ],
+    "text": "HLA-B*57:01 allele test"
+  },
+  "subject": {
+    "reference": "Patient/pat2"
+  },
+  "encounter": {
+    "reference": "Encounter/example"
+  },
+  "effectiveDateTime": "2016-04-27T14:13:15-05:00",
+  "issued": "2016-04-28T13:00:35-05:00",
+  "performer": {
+    "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+    "display": "Acme Laboratory, Inc"
+  },
+  "result": [
+    {
+      "reference": "#r1"
+    }
+  ],
+  "presentedForm": [
+    {
+      "contentType": "application/pdf",
+      "language": "en-AU",
+      "data": "",
+      "title": "PGx Report"
+    }
+  ]
+}

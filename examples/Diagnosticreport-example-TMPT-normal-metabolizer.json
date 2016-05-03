@@ -1,0 +1,94 @@
+{
+  "resourceType": "DiagnosticReport",
+  "id": "102",
+  "text": {
+    "status": "generated",
+    "div": "<div></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Observation",
+      "id": "r1",
+      "status": "final",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "79713-4",
+            "display": "TPMT gene product metabolic activity interpretation in Blood or Tissue Qualitative by CPIC"
+          }
+        ],
+        "text": "TPMT gene product metabolic activity interpretation"
+      },
+      "subject": {
+        "reference": "Patient/pat2"
+      },
+      "performer": [
+        {
+          "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+          "display": "Acme Laboratory, Inc"
+        }
+      ],
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "LA25391-6",
+            "display": "Normal metabolizer"
+          }
+        ],
+        "text": "Normal metabolizer TPMT gene product metabolic activity"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://acme.com/lab/reports",
+      "value": "5234343"
+    }
+  ],
+  "status": "final",
+  "category": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v2/0074",
+        "code": "GE"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "79713-4",
+        "display": "TPMT gene product metabolic activity interpretation in Blood or Tissue Qualitative by CPIC"
+      }
+    ],
+    "text": "TPMT gene product metabolic activity interpretation"
+  },
+  "subject": {
+    "reference": "Patient/pat2"
+  },
+  "encounter": {
+    "reference": "Encounter/example"
+  },
+  "effectiveDateTime": "2016-04-27T14:13:15-05:00",
+  "issued": "2016-04-28T13:00:35-05:00",
+  "performer": {
+    "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+    "display": "Acme Laboratory, Inc"
+  },
+  "result": [
+    {
+      "reference": "#r1"
+    }
+  ],
+  "presentedForm": [
+    {
+      "contentType": "application/pdf",
+      "language": "en-AU",
+      "data": "",
+      "title": "PGx Report"
+    }
+  ]
+}
