@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "tpmt-interpretation-1032702",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "79713-4",
+        "display": "TPMT gene product metabolic activity interpretation in Blood or Tissue Qualitative by CPIC"
+      }
+    ],
+    "text": "TPMT gene product metabolic activity interpretation"
+  },
+  "subject": {
+    "reference": "Patient/1032702"
+  },
+  "issued": "2016-06-23T09:30:47-05:00",
+  "performer": [
+    {
+      "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "display": "Acme Laboratory, Inc"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA25390-8",
+        "display": "Rapid metabolizer"
+      }
+    ],
+    "text": "Rapid metabolizer TPMT gene product metabolic activity"
+  }
+}
