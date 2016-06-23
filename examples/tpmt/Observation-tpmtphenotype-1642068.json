@@ -1,0 +1,35 @@
+{
+  "resourceType": "Observation",
+  "id": "tpmt-phenotype-1642068",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "79713-4",
+        "display": "TPMT gene product metabolic activity interpretation in Blood or Tissue Qualitative by CPIC"
+      }
+    ],
+    "text": "TPMT gene product metabolic activity interpretation"
+  },
+  "subject": {
+    "reference": "Patient/1642068"
+  },
+  "issued": "2016-06-23T09:30:47-05:00",
+  "performer": [
+    {
+      "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "display": "Acme Laboratory, Inc"
+    }
+  ],
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "LA9657-3",
+        "display": "Poor metabolizer"
+      }
+    ],
+    "text": "Poor metabolizer TPMT gene product metabolic activity"
+  }
+}

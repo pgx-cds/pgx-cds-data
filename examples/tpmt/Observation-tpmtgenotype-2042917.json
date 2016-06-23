@@ -1,0 +1,49 @@
+{
+  "resourceType": "Observation",
+  "id": "tpmt-genotype-2042917",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "363779003",
+        "display": "Genotype determination"
+      }
+    ],
+    "text": "Diplotype Call"
+  },
+  "subject": {
+    "reference": "Patient/2042917"
+  },
+  "effectiveDateTime": "2016-06-21",
+  "issued": "2016-06-22T17:46:06-05:00",
+  "performer": [
+    {
+      "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "display": "Acme Laboratory, Inc"
+    }
+  ],
+  "valueString": "*4/*2",
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "67271001",
+            "display": "Gene"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.genenames.org",
+            "code": "HGNC:12014",
+            "display": "TPMT"
+          }
+        ]
+      }
+    }
+  ]
+}
