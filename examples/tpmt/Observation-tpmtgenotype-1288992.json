@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "diplotype-call-1032702",
+  "id": "tpmt-genotype-1288992",
   "status": "final",
   "code": {
     "coding": [
@@ -13,7 +13,7 @@
     "text": "Diplotype Call"
   },
   "subject": {
-    "reference": "Patient/1032702"
+    "reference": "Patient/1288992"
   },
   "effectiveDateTime": "2016-06-21",
   "issued": "2016-06-22T17:46:06-05:00",

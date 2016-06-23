@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "tpmt-interpretation-1032702",
+  "id": "tpmt-phenotype-1288992",
   "status": "final",
   "code": {
     "coding": [
@@ -13,7 +13,7 @@
     "text": "TPMT gene product metabolic activity interpretation"
   },
   "subject": {
-    "reference": "Patient/1032702"
+    "reference": "Patient/1288992"
   },
   "issued": "2016-06-23T09:30:47-05:00",
   "performer": [
@@ -26,10 +26,10 @@
     "coding": [
       {
         "system": "http://loinc.org",
-        "code": "LA25390-8",
-        "display": "Rapid metabolizer"
+        "code": "LA25391-6",
+        "display": "Normal metabolizer"
       }
     ],
-    "text": "Rapid metabolizer TPMT gene product metabolic activity"
+    "text": "Normal metabolizer TPMT gene product metabolic activity"
   }
 }
