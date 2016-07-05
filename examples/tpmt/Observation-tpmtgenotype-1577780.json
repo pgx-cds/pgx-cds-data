@@ -13,7 +13,7 @@
     "text": "Diplotype Call"
   },
   "subject": {
-    "reference": "Patient/1577780"
+    "reference": "Patient/smart-1577780"
   },
   "effectiveDateTime": "2016-06-21",
   "issued": "2016-06-22T17:46:06-05:00",
