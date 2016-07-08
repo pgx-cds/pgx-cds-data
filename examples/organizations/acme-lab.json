@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "acme-lab",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+1 234 567 8901",
+      "use": "mobile"
+    },
+    {
+      "system": "email",
+      "value": "info@acme.org",
+      "use": "work"
+    }
+  ]
+}
