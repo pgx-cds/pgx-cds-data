@@ -18,7 +18,7 @@
   "issued": "2016-06-23T09:30:47-05:00",
   "performer": [
     {
-      "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "reference": "Organization/acme-lab",
       "display": "Acme Laboratory, Inc"
     }
   ],
@@ -31,5 +31,14 @@
       }
     ],
     "text": "Poor metabolizer TPMT gene product metabolic activity"
-  }
+  },
+  "related": [
+    {
+      "type": "derived-from",
+      "target": {
+        "reference": "Observation/tpmt-genotype-1642068",
+        "display": "Diplotipe Call"
+      }
+    }
+  ]
 }
