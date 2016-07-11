@@ -19,7 +19,7 @@
   "issued": "2016-06-22T17:46:06-05:00",
   "performer": [
     {
-      "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "reference": "Organization/acme-lab",
       "display": "Acme Laboratory, Inc"
     }
   ],
