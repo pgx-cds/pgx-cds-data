@@ -17,6 +17,12 @@
   },
   "effectiveDateTime": "2016-06-21",
   "issued": "2016-06-22T17:46:06-05:00",
+  "performer": [
+    {
+      "reference": "Organization/1832473e-2fe0-452d-abe9-3cdb9879522f",
+      "display": "Acme Laboratory, Inc"
+    }
+  ],
   "valueString": "*1/*1",
   "component": [
     {
