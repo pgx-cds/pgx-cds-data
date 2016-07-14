@@ -1,0 +1,11 @@
+[Unit]
+Description=FHIR Genomics Server
+
+[Service]
+Type=simple
+WorkingDirectory=/home/gaston/bin/server
+ExecStart=/usr/bin/java -jar /home/gaston/bin/hapi-fhir-cli.jar run-server
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
